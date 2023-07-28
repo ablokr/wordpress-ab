@@ -4,8 +4,8 @@ NPM 뒤 리버스프록시로 사용하기 적합합니다.<br>
 
 ## 사용방법
 <strong>
-git clone https://github.com/dalso0418/ds-wordpress.git<br>
-cd ds-wordpress<br>
+git clone https://github.com/ablokr/wordpress-ab.git<br>
+cd wordpress-ab<br>
 vi docker-compose.yml  // DB root 계정 및 사용자 계정 수정<br>
 
 ![image](https://user-images.githubusercontent.com/107911055/180369543-c2e586bb-6b2e-4860-a4c1-15ea74e2f62c.png)
