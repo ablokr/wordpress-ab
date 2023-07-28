@@ -10,8 +10,8 @@ vi docker-compose.yml  // DB root 계정 및 사용자 계정 수정<br>
 
 ![image](https://user-images.githubusercontent.com/107911055/180369543-c2e586bb-6b2e-4860-a4c1-15ea74e2f62c.png)
 
-chown -R 82:82 ./data/wordpress  // PHP 실행계정인 www-data의 UID/PID로 변경<br>
-docker-compose up -d <br>
+sudo chown -R 82:82 ./data/wordpress  // PHP 실행계정인 www-data의 UID/PID로 변경<br>
+sudo docker-compose up -d <br>
 </strong><br>
 
 ![image](https://user-images.githubusercontent.com/107911055/180369964-1f1b9924-e2f4-4613-b42a-d337256e21dc.png)
